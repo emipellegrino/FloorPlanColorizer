@@ -1,0 +1,58 @@
+# Ignorar archivos y directorios generados por Visual Studio
+*.user
+*.suo
+*.sln.docstates
+.vscode/
+.vs/
+*.csproj.user
+
+# Ignorar directorios de compilación
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Ignorar paquetes de NuGet
+packages/
+*.nupkg
+
+# Ignorar archivos de configuración de usuario
+*.config
+!app.config
+!web.config
+
+# Ignorar archivos de documentación generados
+*.xml
+!*.csproj
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+*.bak
+*.cache
+*.log
+*.swp
+
+# Ignorar directorios de pruebas
+TestResults/
+*.trx
+*.xml
+
+# Ignorar archivos de entorno local
+*.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de macOS
+.DS_Store
+
+# Ignorar archivos de Windows
+Thumbs.db
+desktop.ini
+
+# Ignorar archivos de copias de seguridad
+*~
+*.bak
+
+# Incluir explícitamente FloorPlans/plan1.txt
+!FloorPlans/plan1.txt

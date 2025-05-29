@@ -1,0 +1,1 @@
+se utilizo C# en visual studio 2022, con .net 8.0, la unica dependencia utilizada es Spectre.Console. el unico algoritmo de notoriedad que se utilizo fue floodfill, que se utiliza que se usa en proceso de imagenes para marcar o rellenar un area, lo cual aplica en este caso
